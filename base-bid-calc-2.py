@@ -36,7 +36,7 @@ for x in range(1, 301):
     base_bid = x
     ctr = df2['click'].sum().astype('float64') / df2['logtype'].sum().astype('float64')
     clicks = df2['click'].sum()
-    spend = df2['bid'].sum()
+    spend = df2['payprice'].sum()
     bidTotal = df['bid'].sum()
     cpm = spend.astype('float64') / df2['logtype'].sum().astype('float64')
     cpc = None

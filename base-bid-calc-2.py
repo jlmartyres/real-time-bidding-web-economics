@@ -61,7 +61,7 @@ for x in range(1, 301):
     print "Average CPM:", cpm
     print "Average CPC:", cpc
 
-    if bidTotal > 25000000:
+    if spend > 25000000:
         print "\nBid Total Exceeded, Terminating"
         break
 
